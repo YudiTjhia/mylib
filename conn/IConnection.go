@@ -17,7 +17,7 @@ type IConnectionConfig interface {
 	GetHost() string
 
 	SetPort(port int)
-	GetPort()
+	GetPort() int
 
 	SetDriver(driver string)
 	GetDriver() string

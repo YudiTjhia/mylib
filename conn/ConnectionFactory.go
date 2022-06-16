@@ -13,6 +13,7 @@ func CreateConnection(connType int,
 	connConfig IConnectionConfig) (IConnection, error) {
 
 	switch connType {
+
 	case CONN_TYPE_GORM:
 		conn := GormConnection{}
 		conn.SetConnectionType(connType)

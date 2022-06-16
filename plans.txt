@@ -1,0 +1,13 @@
+db config
+
+account registration {
+    user
+    user roles
+    role
+    role actions
+}
+
+db config
+remote config
+searching patient / member
+account registration (termasuk users)

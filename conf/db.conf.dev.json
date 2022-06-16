@@ -1,0 +1,15 @@
+{
+  "id": "tokocash_pgsql",
+  "host": "127.0.0.1",
+  "port": 5432,
+  "driver": "postgres",
+  "dbName": "tokocash",
+  "user": "postgres",
+  "password": "postgres",
+  "enableLog": true,
+  "singularTable": true,
+  "sslMode": "disable",
+  "maxIdleConns": 10,
+  "maxOpenConns": 10,
+  "maxConnsLifeTime": 1
+}
